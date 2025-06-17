@@ -12,8 +12,7 @@ export class Shell {
     public async exec(command: string, ...args: string[]): Promise<Result> {
         return new Promise<Result>((resolve, reject) => {
             const proc = spawn(command, args, {
-                cwd: this.workingDirectory,
-                shell: true,
+                cwd: this.workingDirectory
             });
 
             let stdout = '';
