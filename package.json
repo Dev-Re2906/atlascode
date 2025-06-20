@@ -1328,7 +1328,7 @@
         "prosemirror-view": "^1.39.3",
         "react": "^16.13.1",
         "react-async-hook": "^4.0.0",
-        "react-dom": "^16.13.1",
+        "react-dom": "^19.1.0",
         "react-dropzone": "^14.3.8",
         "react-editext": "3.6.1",
         "react-hook-form": "^4.9.8",
